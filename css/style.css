@@ -1,0 +1,111 @@
+*,
+ul,
+.row {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    height: 10vh;
+}
+
+.navbar ul {
+    font-weight: 400;
+}
+
+.carousel-item {
+    background-size: cover;
+    height: 90vh;
+}
+
+.carousel-item .blur,
+.blur-dark {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 146, 153, 0.2);
+}
+
+.blur-dark {
+    background-color: rgba(000, 000, 000, 0.6);
+    z-index: 90;
+
+}
+
+.carousel-item1 {
+    background-image: url("../images/pexels-francesco-ungaro-2325446.jpg");
+}
+
+.carousel-item2 {
+    background-image: url("../images/pexels-sam-kolder-2387873.jpg");
+}
+
+.hot-services {
+    margin: 2rem;
+}
+
+.hot-services h4 p {
+    font-size: 1rem;
+}
+
+.text-color-gray {
+    color: rgb(139, 138, 138)
+}
+
+.watch-video {
+    width: 100%;
+    height: 500px;
+
+    background-image: url('../images/pexels-francesco-ungaro-2325446.jpg');
+    background-size: cover;
+}
+
+.watch-video .video {
+    color: #FFF;
+    z-index: 9999;
+    position: absolute;
+    bottom: 0rem;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.watch-video .video video {
+    margin-top: 2rem;
+    width: 60%;
+    height: 30%;
+    border-bottom: 5px solid rgb(75, 165, 224);
+
+}
+
+.icons-part {
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.icons-part .icon-section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-part .icon-section img {
+    width: 50px;
+    height: 50px;
+}
+
+.icons-part .icon-section p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+footer {
+    height: 50px;
+    background-color: #DDD;
+}
